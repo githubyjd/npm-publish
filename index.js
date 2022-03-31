@@ -1,5 +1,5 @@
 // 更新父级options
-function upDateOptions(options) {
+export function upDateOptions(options) {
     const {
         q,
         scancode_time
@@ -20,7 +20,7 @@ function upDateOptions(options) {
     }
 }
 
-function getOptions(options) {
+export function getOptions(options) {
     return new Promise((resolve, reject) => {
         const obj = {}
         const {
@@ -45,7 +45,7 @@ function getOptions(options) {
     })
 }
 
-function getKeys(options) {
+export function getKeys(options) {
     return new Promise((resolve, reject) => {
         const obj = {}
         const {
@@ -73,7 +73,7 @@ function getKeys(options) {
     })
 }
 
-function getValues(options) {
+export function getValues(options) {
     return new Promise((resolve, reject) => {
         const obj = {}
         const {
@@ -101,7 +101,7 @@ function getValues(options) {
     })
 }
 
-function getCode(options, code_type, code_type_reg) {
+export function getCode(options, code_type, code_type_reg) {
     return new Promise((resolve, reject) => {
         const obj = {}
         const {
@@ -149,7 +149,7 @@ function getCode(options, code_type, code_type_reg) {
     })
 }
 
-function help() {
+export function help() {
     console.log("upDateOptions:options")
     console.log("getOptions:options")
     console.log("getKeys:options")
@@ -167,5 +167,5 @@ const optionUtils = {
 }
 
 // 解析微信扫码进小程序的参数
-module.exports = optionUtils
+export default optionUtils
 

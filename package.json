@@ -1,8 +1,9 @@
 {
   "name": "beiji-option",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "测试发布开源包",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

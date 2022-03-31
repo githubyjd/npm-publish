@@ -156,11 +156,16 @@ function help() {
     console.log("getValues:options,code_type,code_type_reg")
 }
 
-// 解析微信扫码进小程序的参数
-export const optionUtils = {
+
+const optionUtils = {
     upDateOptions: (options) => upDateOptions(options),
     getOptions: (options) => getOptions(options),
     getKeys: (options) => getKeys(options),
     getValues: (options) => getValues(options),
     getCode: (options = {}, code_type = "code", code_type_reg) => getCode(options, code_type, code_type_reg),
+    help: () => help()
 }
+
+// 解析微信扫码进小程序的参数
+module.exports = optionUtils
+

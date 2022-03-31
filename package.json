@@ -1,0 +1,22 @@
+{
+  "name": "beiji-option",
+  "version": "1.0.5",
+  "description": "测试发布开源包",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangjindiao/test-npm.git"
+  },
+  "keywords": [
+    "测试发布开源包"
+  ],
+  "author": "yangjindiao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangjindiao/test-npm/issues"
+  },
+  "homepage": "https://github.com/yangjindiao/test-npm#readme"
+}

@@ -149,6 +149,13 @@ function getCode(options, code_type, code_type_reg) {
     })
 }
 
+function help() {
+    console.log("upDateOptions:options")
+    console.log("getOptions:options")
+    console.log("getKeys:options")
+    console.log("getValues:options,code_type,code_type_reg")
+}
+
 // 解析微信扫码进小程序的参数
 export const optionUtils = {
     upDateOptions: (options) => upDateOptions(options),
